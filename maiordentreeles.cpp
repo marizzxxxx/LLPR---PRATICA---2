@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int dobro(int n1, int n2, int x){
+int maior(int n1, int n2, int x){
 	
 	if (n1 > n2){
 		x = n1;
@@ -24,7 +24,7 @@ int main(){
 	printf("Digite o n2: ");
 	scanf("%d", &n2);
 	
-	x = dobro(n1, n2, x);
+	x = maior(n1, n2, x);
 	printf("\nO maior entre eles eh: %d\n", x);
 	
 	return 0;
